@@ -1,0 +1,17 @@
+<header>
+  <div class="logo">
+    <svg width="40" height="30" viewBox="0 0 64 50" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 4.3V15.83c0 3.51 4.28 5.38 6.89 2.93L19.37 7.23c2.73-2.52.95-6.96-2.77-6.96H4.1C1.84.27 0 2.08 0 4.3z" fill="#ffffff"/>
+      <path d="M59.05.27H46.58c-3.68 0-5.52 4.45-2.79 6.96l12.48 11.53c2.61 2.4 6.89.59 6.89-2.97V4.3c0-2.22-1.84-4.03-4.11-4.03z" fill="#ffffff"/>
+      <path d="M34.4 28.41l21.86 20.24c2.61 2.4 6.89.59 6.89-2.93V34.08c0-1.11-.47-2.17-1.31-2.92L34.4 5.71a4.09 4.09 0 0 0-5.65 0L1.31 31.16C.48 31.92 0 32.97 0 34.08v11.64c0 3.51 4.28 5.38 6.89 2.93L28.75 28.41a4.09 4.09 0 0 1 5.65 0z" fill="#ffffff"/>
+    </svg>
+    SAFE SPACE
+  </div>
+  <nav>
+    <div><a href="homepage.php">Home</a></div>
+    <div><a href="profile.php">Profile</a></div>
+    <div><a href="reports.php">Reports</a></div>
+    <div><a href="about.us.php">Services</a></div>
+    <div><a href="index.php">Login</a></div>
+  </nav>
+</header>
