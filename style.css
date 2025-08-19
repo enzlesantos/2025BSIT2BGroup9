@@ -1,0 +1,308 @@
+/* =====================
+   Global Styles
+===================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+
+/* Background variations */
+.body-login {
+    height: 100vh;
+    background: radial-gradient(circle at top left, #cbbcf6, #a3bffa, #d2b6f0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.body-home {
+    background: linear-gradient(135deg, #bfb9ff, #8b78f0, #5a4fd4);
+}
+
+.body-about {
+    background: linear-gradient(135deg, #5a4fd4, #8b78f0);
+}
+
+
+
+
+/* =====================
+   Login Page
+===================== */
+.login-container {
+    background: rgba(50, 60, 100, 0.15);
+    padding: 40px;
+    border-radius: 15px;
+    width: 320px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+.top-left-logo {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+.top-left-logo svg {
+    display: block;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.login-container h2 {
+    margin-bottom: 20px;
+    text-align: left;
+}
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.forgot-password {
+    font-size: 12px;
+    text-align: left;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.sign-in-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #002c60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.sign-in-btn:hover {
+    background-color: #004080;
+}
+.or {
+    margin: 20px 0;
+    font-size: 14px;
+}
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.social-login button {
+    background: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.social-login button:hover {
+    background: #e6e6e6;
+}
+.register {
+    margin-top: 20px;
+    font-size: 12px;
+}
+.register a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+
+/* =====================
+   Header / Navbar
+===================== */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* logo left, nav right */
+    align-items: center;
+    background: rgba(255,255,255,0.1);
+    padding: 15px 40px;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-weight: bold;
+}
+
+nav div {
+    color: white;
+    cursor: pointer;
+}
+
+nav div:hover {
+    text-decoration: underline;
+}
+
+.nav-home {
+    background: white;
+    color: #333;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* Avoid overlap with header */
+.login-container {
+    margin-top: 120px; /* adjust if needed */
+}
+
+
+
+
+/* =====================
+   Hero Section
+===================== */
+.hero {
+    text-align: left;
+    padding: 60px 40px;
+    max-width: 700px;
+}
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.hero button {
+    background: #6237f0;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 12px 28px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.hero button:hover {
+    background: #4525b5;
+}
+
+
+
+
+/* =====================
+   Cards / Sections
+===================== */
+.bottom {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    background: #2f2a4f;
+    flex-wrap: wrap;
+}
+.card {
+    flex: 1;
+    min-width: 280px;
+    padding: 25px;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.15);
+    text-align: center;
+}
+.card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.card button {
+    background: #6237f0;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+.card button:hover {
+    background: #4525b5;
+}
+
+
+
+
+/* =====================
+   About Page
+===================== */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 90px 20px;
+}
+.illustration {
+    margin-top: 30px;
+    text-align: right;
+}
+.illustration img {
+    width: 200px;
+}
+
+
+
+
+/* =====================
+   Footer
+===================== */
+footer {
+    background: rgba(255,255,255,0.1);
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    width: 100%;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
