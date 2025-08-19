@@ -40,6 +40,22 @@ body {
     backdrop-filter: blur(10px);
     text-align: center;
 }
+
+.top-left-logo {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+.top-left-logo svg {
+    display: block;
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -272,3 +288,4 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
